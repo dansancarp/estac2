@@ -1,0 +1,52 @@
+/*Secciones de la pagina*/
+body
+{
+	background-color: #1d1d1d;		
+}
+footer
+{
+	text-align: center;
+	color: #aaa;
+}
+#contenedor
+{
+	width: 1000px;
+	margin: 0 auto;	
+	background-color: #eee;
+	min-height: 650px;
+}
+#dinamico
+{
+	overflow-y: auto;
+	max-height: 650px;
+}
+#info
+{	
+	color: #a00;
+	font-size: 16pt;
+}
+#divImagen,#divForm
+{
+float: left;
+}
+#titulo
+{
+	color: #0ac;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Chewy', cursive;
+
+}
+/*Configuraciones generales de elementos*/
+a
+{
+	cursor: pointer;
+}
+h1,h2,h3
+{
+	font-family: 'Chewy', cursive;
+}
+h4,h5,h6
+{
+	font-family: 'Architects Daughter', cursive;
+}
